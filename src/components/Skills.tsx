@@ -1,15 +1,17 @@
 import { motion } from "framer-motion";
-import { SiPython, SiCplusplus, SiHtml5, SiTailwindcss, SiBootstrap, SiFlask, SiOpenai, SiNumpy, SiPandas, SiSnowflake, SiPostgresql } from "react-icons/si";
+import { SiPython, SiCplusplus, SiHtml5, SiTailwindcss, SiFlask, SiOpenai, SiNumpy, SiPandas, SiSnowflake, SiPostgresql, SiJavascript, SiSqlite, SiSqlalchemy, SiMysql, SiCss, SiElevenlabs} from "react-icons/si";
 import { Database, Code2, LineChart, BarChart2 } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Programming & Querying",
+    title: "Programming, Databases & ORM",
     skills: [
       { name: "Python", icon: SiPython, color: "#3776AB" },
       { name: "C++", icon: SiCplusplus, color: "#00599C" },
-      { name: "SQL", icon: Database, color: "#336791" },
+      { name: "SQL", icon: SiMysql, color: "#336791" },
       { name: "PostgreSQL", icon: SiPostgresql, color: "#336791" },
+      { name: "SQLite", icon: SiSqlite, color: "#3776AB" },
+      { name: "SQLAlchemy", icon: SiSqlalchemy, color: "#000000" },
     ],
   },
   {
@@ -19,6 +21,7 @@ const skillCategories = [
       { name: "Pandas", icon: SiPandas, color: "#150458" },
       { name: "Matplotlib", icon: LineChart, color: "#11557C" },
       { name: "Seaborn", icon: BarChart2, color: "#4C72B0" },
+      { name: "ETL", icon: BarChart2, color: "#F59E0B" },
     ],
   },
   {
@@ -26,9 +29,9 @@ const skillCategories = [
     skills: [
       { name: "Flask", icon: SiFlask, color: "#ffffff" },
       { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
-      { name: "CSS3", icon: Code2, color: "#1572B6" },
+      { name: "CSS3", icon: SiCss, color: "#1572B6" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-      { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
+      { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
     ],
   },
   {
@@ -36,7 +39,7 @@ const skillCategories = [
     skills: [
       { name: "Snowflake", icon: SiSnowflake, color: "#29B5E8" },
       { name: "OpenAI API", icon: SiOpenai, color: "#74AA9C" },
-      { name: "ETL Pipelines", icon: BarChart2, color: "#F59E0B" },
+      { name: "ElevenLabs API", icon: SiElevenlabs, color: "#000000" },
     ],
   },
 ];
