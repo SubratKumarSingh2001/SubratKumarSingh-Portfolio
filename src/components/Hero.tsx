@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed"
           >
-            Available for Python/Flask backend, data analytics, data cleaning & AI projects. I do EDA, build data warehouses, ship AI-powered products, and work across ETL pipelines.
+            Available for Python/Flask backend, data analytics, data cleaning & AI projects. I do EDA, build data warehouses, ship AI-powered products, and work across ETL.
           </motion.p>
 
           <motion.div
